@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Inria Sans';
+    src: url('../font/inria.ttf') format('truetype');
+}
+
+body {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.details-container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.details-container p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.details-container form {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.big-label {
+    font-weight: bold;
+}
+
+.flavor-ratings-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flavor-rating-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.flavor-rating-item label {
+    width: 150px;
+}
+
+.flavor-rating-item select {
+    flex-grow: 0.49;
+}
+
+.flavors {
+    color: #CDAC50;
+}
+
+.beer-data {
+    margin-top: 15px;
+}
+
+.beer-data img {
+    width: 450px;
+    height: auto;
+    float: left;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+hr {
+    border: 30px solid #ECECEC;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.beer-data h3 {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.beer-data h4 {
+    font-weight: 400;
+    color: #CDAC50;
+    margin-top: 10px;
+}
+
+.beer-data p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.rating-circle {
+    background-color: #CDAC50;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    float: right;
+}
+
+.rate-button {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.beer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto; 
+}
+
+.beer-item {
+    width: calc(20% - 20px);
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.beer-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.beer-item h4 {
+    font-weight: 400;
+    color: #CDAC50;
+}
+
+.beer-item p {
+    font-size: 1.2rem;
+}
+
+.navbar {
+    background-color: #CDAC50;
+}
+
+.text-container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.text-container img {
+    max-width: 450px;
+}
